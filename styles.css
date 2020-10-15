@@ -6,49 +6,59 @@
 body {
     font-family: 'Roboto Mono', monospace;
     color: gray;
+    margin: 24px;
 }
 
 h2 {
     font-weight: 600;
-    font-size: 24px; 
+    font-size: 24px;
+    padding-bottom: 16px;
 }
 
 h4 {
     font-weight: 400;
     font-size: 16px;
 }
+
+h6 {
+    font-size: 14px;
+    text-align: center;
+}
+
 .flex-container {
     display: flex;
     justify-content: flex-start;
-
-}
-.bg-container {
-    padding: 16px;
-    margin: 8px;
-    align-items: center;
-    width: 200px;
+    flex-wrap: wrap;
 }
 
-.color-container {
+.container-size {
+    width: 20%;
+}
+
+.style-primary {
     background-color: lightcyan;
     border-radius: 4px;
     border: cyan 1px solid;
+    padding:16px;
+    margin: 8px 0;
+    align-items: center;
 }
 
-.color-container:hover {
+.style-primary:hover {
     background-color:cyan;
     color: black;
     cursor: pointer;
 }
 
-.secondary {
+.style-secondary {
     background-color: lightseagreen;
     color: white;
     border: 1px seagreen solid;
-    padding: 4px;
+    border-radius: 2px;
+    padding: 8px;
     margin: 4px;
     align-items: center;
-    border-radius: 2px;
 }
+
 
 
